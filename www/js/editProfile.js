@@ -83,7 +83,7 @@ function edit(username, email, phone) {
   const allowedTypes = ['image/png', 'image/jpeg', 'image/jpg'];
 
   if (!allowedTypes.includes(imageInput.files[0].type)) {
-      alert('Please upload a PNG, JPG, or JPEG image.');
+      alert('Please upload a PNG, JPG, or JPEG image. 請上傳PNG、JPG或JPEG格式的圖片。');
       return; // Stop the function if the file is not one of the allowed types
   }
 

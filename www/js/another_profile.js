@@ -213,10 +213,10 @@ document.addEventListener('DOMContentLoaded', () => {
             email.textContent = data.email;
             nameElement.textContent = data.username;
             if(rating){
-              rating.textContent = "Overall rating: "+ data.rating;
+              rating.textContent = "Overall rating 整體評價: "+ data.rating;
             }
             if (ratingCount){
-              ratingCount.textContent = "Rated " + data.ratingCount +" times";
+              ratingCount.textContent = "Rated 額定" + data.ratingCount +" times 次";
             }
 
 

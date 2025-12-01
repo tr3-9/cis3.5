@@ -26,14 +26,14 @@ document.addEventListener('DOMContentLoaded', function () {
     if (email) {
       sendPasswordResetEmail(auth, email)
         .then(() => {
-          alert('Password reset email sent!');
+          alert('Password reset email sent! 密碼重設郵件已發送！');
         })
         .catch((error) => {
-          console.error('Error sending password reset email:', error);
+          console.error('Error sending password reset email 發送密碼重設郵件時發生錯誤:', error);
           alert(`Failed to send password reset email: ${error.message}`);
         });
     } else {
-      alert('Please enter your email address.');
+      alert('Please enter your email address. 請輸入您的電子郵件地址.');
     }
   });
 });
